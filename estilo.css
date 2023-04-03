@@ -41,7 +41,7 @@ img{
 }
 main div{
     position: absolute;
-    /* z-index: -1; */
+    z-index: -1;
 }
 .foto{
     position: relative;
@@ -73,7 +73,7 @@ main div{
     align-items: center;
     position: absolute;
     background-color: rgb(57,62,68);
-    bottom: 45%;
+    bottom: 42%;
     width: 50%;
     height: 12%;
     right: 50%;
@@ -85,4 +85,62 @@ main div{
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
     
+}
+.tercerdiv{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    position: absolute;
+    background-color: rgb(216,214,204);
+    bottom: 42%;
+    width: 50%;
+    height: 12%;
+    left: 50%;
+}
+.tercerafrase{
+    position: relative;
+    margin-left: 15%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+.frasefondo1{
+    color: rgb(233,231,218);
+    font-family: 'Roboto', sans-serif;
+    left: 25px;
+    top: -12px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-size: 50px;
+}
+.frasefondo2{
+    color: rgb(233,231,218);
+    font-family: 'Roboto', sans-serif;
+    left: 25px;
+    top: 30px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-size:50px;
+}
+.cuartodiv{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position:absolute;
+    background-color: rgb(57,62,68);
+    bottom: 17%;
+    right: 28%;
+    width: 23%;
+    height: 12%;
+
+}
+.cuartafrase{
+    color: white;
+    margin-right: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
